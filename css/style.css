@@ -1,0 +1,514 @@
+body{
+     font-family: 'Roboto', sans-serif;  /*доминантный шрифт - главный  */
+     font-family: 'Raleway', sans-serif;
+     text-decoration: none;
+     list-style: none;
+}
+
+header{
+    height: 80px;
+    background: #FFFFFF;
+}
+
+.hero,
+footer,
+.portfolio-footer{
+     background: #2F303A;
+}
+
+
+
+.logo{
+     position: absolute;
+     left: 215px;
+     top: 24px;
+     font-family: Raleway;
+     font-size: 26px;
+     line-height: 1.20;
+     letter-spacing: 0.03em;
+     text-decoration: none;
+     color: #2196F3;
+}
+
+.accent__header{
+     color: #212121;
+}
+
+.link-1{
+     position: absolute;
+     left: 453px;
+     top: 32px;
+     font-size: 14px;
+     line-height: 1.15;
+     letter-spacing: 0.02em;
+     text-decoration: none;
+ }
+ .link-1:hover{
+     color: #2196F3;;
+ }
+
+.link-2{
+     position: absolute;
+     height: 16px;
+     left: 552px;
+     top: 32px;
+     font-size: 14px;
+     letter-spacing: 0.02em;
+     color: #212121;
+     text-decoration: none;
+ }
+ .link-2:hover{
+     color: #2196F3;;
+ }
+.link-3{
+     position: absolute;
+     left: 679px;
+     top: 32px;
+     font-size: 14px;
+     letter-spacing: 0.02em;
+     color: #212121;
+     text-decoration: none;
+ }
+
+.info{
+     position: absolute;
+     left: 1078px;
+     top: 32px;
+     text-decoration: none;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     color: #757575;
+}
+.info:hover{
+     color: #2196F3;;
+     }
+.tel-num{
+     position: absolute; 
+     left: 1263px;
+     top: 32px;
+     text-decoration: none;
+     font-family: Roboto;
+     font-weight: 500;
+     font-size: 14px;
+     line-height: 1.14;
+     letter-spacing: 0.02em;
+     color: #757575;
+}
+.tel-num:hover{
+  color: #2196F3;;
+}
+.link-3:hover{
+color: #2196F3;;
+}
+/*ГЕРОЙ*/
+
+.hero{
+     position: absolute;
+     width:100%;
+     height: 600px;
+     left: 0px;
+     top: 80px; 
+}
+
+.hero-title{
+    position: absolute;
+    width: 696px;
+    left: 452px;
+    top: 150px;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;   
+}
+
+.button{
+     position: absolute;
+     height: 50px;
+     left: 700px;
+     top: 350px;
+     background: #2196F3;
+     box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+     border-radius: 4px;
+     width: 200px;
+     color: #FFFFFF;
+     font-weight: bold;
+     font-family: Roboto;
+     font-size: 16px;
+     line-height: 30px;
+     letter-spacing: 0.06em;
+}
+
+/*Преимущества */
+
+.feature-list{
+     display: flex;
+     position: absolute;
+     height: 230px;
+     left: 215px;
+     top: 774px;
+ }
+
+
+.feature-list-title{
+     font-family: Roboto;
+     font-size: 14px;
+     line-height: 1.15;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color: #212121;  
+}
+
+
+.feature-list-text{
+     width: 270px;
+     font-family: Roboto;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     color: #757575;   
+}
+
+.second-list{
+     margin-right: 25px;
+     
+}
+
+/*ПРИМЕРЫ РАБОТ*/ 
+
+.work-title{
+    position: absolute;
+    left: 612px;
+    top: 969px;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+}
+
+.work-image-1,
+.work-image-2,
+.work-image-3{
+     position: absolute;
+     width: 370px;
+     height: 294px;
+ }
+ .work-image-1{
+     left: 214px;
+     top: 1085px;
+ }
+.work-image-2{
+     left: 615px;
+     top: 1085px;
+ }
+.work-image-3{
+     left: 1015px;
+     top: 1085px;
+}
+
+/*СПИСОК КОМАНДЫ*/
+
+.section{
+     position: absolute;
+     width: 100%;
+     height: 648px;
+     left: 0px;
+     top: 1449px;
+     background: #F5F4FA;
+}
+
+.team{
+     position: absolute;
+     left: 668px;
+     top: 75px; 
+     font-size: 36px;
+     line-height: 1.15;
+     letter-spacing: 0.03em;
+ }  
+
+.team-list{
+     position: absolute;
+     top: 170px;
+}
+
+.p-designer,
+.f-developer,
+.marketing,
+.ui-designer{     
+     position: absolute;
+     width: 270px;
+     height: 368px;
+     background: #FFFFFF;
+     box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
+     border-radius: 0px 0px 4px 4px;
+}
+
+.p-designer{
+     left: 215px;
+}
+
+.f-developer{
+     left: 515px;
+}    
+
+.marketing{
+     left: 815px;
+}
+
+.ui-designer{
+     left: 1115px;
+}
+
+.team-title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-text{
+     font-weight: normal; 
+     font-size: 16px; 
+     line-height: 1.18; 
+     text-align: center;
+     letter-spacing: 0.03em;
+     color: #757575;    
+}
+
+
+/*FOOTER*/
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+}
+
+.footer-logo{
+     position: absolute;
+     left: 215px;
+     top: 60px;
+     font-family: Raleway;
+     font-size: 26px;
+     line-height: 1.19;
+     letter-spacing: 0.03em;
+     text-decoration: none;
+     color: #2196F3;
+}
+
+.accent-footer{
+     color: #FFFFFF;
+}
+
+.address-list{
+     position: absolute;
+     width: 260px;
+     height: 81px;
+     left: 175px;
+     top: 100px;    
+}
+.address{
+     text-decoration: none;
+     font-family: Roboto;
+     font-style: normal;
+     font-size: 14px;
+     line-height: 1.70;
+     letter-spacing: 0.03em;
+     color: #FFFFFF;         
+}
+
+.m-info,
+.tel-n{
+     font-family: Roboto;
+     font-style: normal;
+     font-size: 14px;
+     line-height: 1.71;
+     letter-spacing: 0.03em;
+     color: rgba(255, 255, 255, 0.6);
+     text-decoration: none;
+}
+
+/* Cтили портфолио */
+
+.border{
+    position: absolute;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    border: 1px solid #ECECEC;
+}
+
+/* Портфолио нав список */
+
+.portfolio-big-container{
+    position: absolute;
+    width: 1170px;
+    height: 1360px;
+    left: 215px;
+    top: 174px;   
+}
+
+.button1 {
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button2 {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: #212121;
+    border: 0px solid #008CBA;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button2:hover {
+  background-color: #2196F3;
+  color: white;
+}
+
+.portfolio-nav-list{
+    position: absolute; 
+    top: 174px;
+}
+
+.button-all{
+    position: absolute;
+    width: 73px;
+    height: 38px;
+    left: 470px;
+}
+    
+.button-web-site{
+    position: absolute;
+    width: 155px;
+    height: 38px;
+    left: 570px;  
+}
+
+.button-apps{
+    position: absolute;
+    width: 145px;
+    height: 38px;
+    left: 725px;
+}
+
+.button-design{
+    position: absolute;
+    width: 103px;
+    height: 38px;
+    left: 897px;   
+}
+
+.button-marketing{
+    position: absolute;
+    width: 130px;
+    height: 38px;
+    left: 1027px;
+}
+
+/* портфолио список */
+
+.portfolio-app-list{
+    position: absolute;
+    top: 65px;    
+} 
+
+.container{
+    position: absolute;
+    width: 370px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.portfolio-title{
+     position: absolute;
+     left: 30px;
+     font-family: Roboto;
+     font-style: normal;
+     font-size: 18px;
+     line-height: 2;
+     letter-spacing: 0.06em;
+     color: #212121;
+}
+
+.portfolio-text{
+     position: absolute;
+     left: 30px;
+     top: 340px;
+     font-size: 16px;
+     line-height: 1.87;
+     color: #757575;
+}
+
+.portfolio-container1{
+     left: 215px;
+     top: 262px;
+}
+
+.portfolio-container2{
+    left: 615px;
+    top: 262px;  
+}
+
+.portfolio-container3{
+    left: 1015px;
+    top: 262px;   
+}
+
+.portfolio-container4{
+    left: 215px;
+    top: 696px;
+}
+
+.portfolio-container5{
+    left: 615px;
+    top: 696px;   
+}
+
+.portfolio-container6{
+    left: 1015px;
+    top: 696px;
+}
+
+.portfolio-container7{
+    left: 215px;
+    top: 1130px;    
+}
+
+.portfolio-container8{
+    left: 615px;
+    top: 1130px;   
+}
+
+.portfolio-container9{
+    left: 1015px;
+    top: 1130px;  
+}
+
+/*FOOTER*/
+
+.portfolio-footer{
+    position: absolute;
+    width: 100%;
+    height: 252px;
+    left: 0px;
+    top: 1750px;
+}
