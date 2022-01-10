@@ -1,260 +1,128 @@
-body{
-    font-family: 'Roboto', sans-serif;  /*доминантный шрифт - главный  */
-    text-decoration: none;
-    list-style: none;
+:root {
+
+    /* css peremennye */
+  /* fonts */
+  --main-font: Roboto;
+  --secondary-font: Raleway;
+
+  /* text colors */
+  --accent-color: #2196f3;
+  --body-color: #212121;
+  /* bg color */
 }
 
-header{
-   height: 80px;
-   background: #FFFFFF;
+body {
+  font-family: var(--main-font), sans-serif; /*доминантный шрифт - главный  */
+  color: var(--body-color);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--accent-color);
+}
+
+.site-nav {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+}
+.accent-header {
+  color: #212121;
 }
 
 
-.logo{
-    font-family: Raleway;
-    font-size: 26px;
-    line-height: 1.20;
-    text-decoration: none;
-    color: #2196F3;
+
+
+.link-1:hover,
+.link-1:focus,
+.link-2:hover,
+.link-2:focus,
+.link-3:hover,
+.link-3:focus {
+  color: #2196f3;
 }
 
-.accent__header{
-    color: #212121;
+.link-1, 
+.link-2, 
+.link-3 {
+  color: #212121;
 }
 
-.link-1{
-    font-size: 14px;
-    line-height: 1.15;
-    text-decoration: none;
-    color: #212121;
-}
-.link-1:hover{
-    color: #2196F3;;
+.info,
+.tel-num {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
 }
 
-.link-2{
-    font-size: 14px;
-    color: #212121;
-    text-decoration: none;
-}
-.link-2:hover{
-    color: #2196F3;;
-}
-.link-3{
-    font-size: 14px;
-    letter-spacing: 0.02em;
-    color: #212121;
-    text-decoration: none;
+
+.info:hover {
+  color: #2196f3;
 }
 
-.info{
-    text-decoration: none;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #757575;
+.tel-num:hover {
+  color: #2196f3;
 }
-.info:hover{
-    color: #2196F3;;
-    }
-.tel-num{;
-    text-decoration: none;
-    font-family: Roboto;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #757575;
-}
-.tel-num:hover{
- color: #2196F3;;
-}
-.link-3:hover{
-color: #2196F3;;
-}
+
+
 /*ГЕРОЙ*/
-
-.hero{
-    width:100%;
-    height: 600px;
-    background: #2F303A;
-}
-
-.hero-title{
-   font-size: 44px;
-   line-height: 1.36;
-   color: #FFFFFF;   
-}
-
-.button{
-    height: 50px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
-    border-radius: 4px;
-    color: #FFFFFF;
-    font-weight: bold;
-    font-family: Roboto;
-    font-size: 16px;
-}
 
 /*Преимущества */
 
-.feature-list{
-    height: 230px;
-}
-
-
-.feature-list-title{
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.15;
-    text-transform: uppercase;
-    color: #212121;  
-}
-
-
-.feature-list-text{
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.71;
-    color: #757575;   
-}
-
-/*ПРИМЕРЫ РАБОТ*/ 
-
-.work-title{
-   font-size: 36px;
-}
-
-.work-image-1,
-.work-image-2,
-.work-image-3{
-    width: 370px;
-    height: 294px;
-}
+/*ПРИМЕРЫ РАБОТ*/
 
 /*СПИСОК КОМАНДЫ*/
 
-.section{
-    width: 100%;
-    height: 648px;
-    background: #F5F4FA;
-}
-
-.team{
-    font-size: 36px;
-    line-height: 1.15;
-}  
-
-
-.p-designer,
-.f-developer,
-.marketing,
-.ui-designer{     
-    width: 270px;
-    height: 368px;
-    background: #FFFFFF;
-    box-shadow: 0px 1px 3px rgb(0 0 0 / 12%), 0px 1px 1px rgb(0 0 0 / 14%), 0px 2px 1px rgb(0 0 0 / 20%);
-    border-radius: 0px 0px 4px 4px;
-}
-
-
-.team-title{
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.18;
-   color: #212121;
-}
-
-.team-text{
-    font-weight: normal; 
-    font-size: 16px; 
-    line-height: 1.18; 
-    color: #757575;    
-}
-
-
 /*FOOTER*/
 
-.footer-logo{
-    font-family: Raleway;
-    font-size: 26px;
-    text-decoration: none;
-    color: #2196F3;
+
+.address:hover,
+.address:focus,
+.m-info:hover,
+.m-info:focus,
+.tel-n:hover,
+.tel-n:focus {
+  color: #FFFFFF;
 }
 
-.accent-footer{
-    color: #FFFFFF;
-}
 
-.address-list{
-    width: 260px;
-    height: 81px;
-}
-.address{
-    text-decoration: none;
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.70;
-    color: #FFFFFF;         
-}
-
-.m-info,
-.tel-n{
-    font-family: Roboto;
-    font-size: 14px;
-    line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
-    text-decoration: none;
+.footer-logo {
+  font-family: Raleway;
+  font-size: 26px;
+  color: #2196f3;
 }
 
 /* Cтили портфолио */
 
-.border{
-   height: 80px;
-   width: 100%;
-   border: 1px solid #ECECEC;
-}
-
 /* Портфолио нав список */
 
-.portfolio-big-container{
-   width: 1170px;
-   height: 1360px;
-}
-
 .button1 {
-   text-decoration: none;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .button2 {
-   font-family: Roboto;
-   color: #212121;
-   border: 0px solid #008CBA;
-   background: #F5F4FA;
-   border-radius: 4px;
+  color: #212121;
+  border: 0px solid #008cba;
+  background: #f5f4fa;
+  border-radius: 4px;
 }
 
 .button2:hover {
- background-color: #2196F3;
- color: white;
-}
-
-
-
-/* портфолио список */
-
-.container{
-   background: #FFFFFF;
-   border: 1px solid #EEEEEE;
-}
-
-.portfolio-title{
-    font-family: Roboto;
-    font-style: normal;
-    color: #212121;
-}
-
-.portfolio-text{
-    color: #757575;
+  background-color: #2196f3;
+  color: white;
 }
