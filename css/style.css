@@ -64,6 +64,12 @@ a {
   color:var(--accent-color);
 }
 
+.header-nav > .active > a,
+.header-nav > .active > a:focus,
+.header-nav > .active > a:hover {
+  color: var(--accent-color);
+}
+
 .header-nav-link, 
 .header-nav-link, 
 .header-nav-link {
@@ -174,6 +180,7 @@ footer{
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--white-color);
+  font-style: normal;
 }
 .footer-mail-info,
 .footer-tel-number{
@@ -181,6 +188,9 @@ footer{
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
 }
 
 
